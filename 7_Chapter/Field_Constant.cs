@@ -23,8 +23,12 @@ namespace CLR_Practice._7_Chapter
             Atype.InvalidChars[1] = 'Y';
             Atype.InvalidChars[2] = 'Z';
             Atype.InvalidStrings[2] = "SS";
-            
-
+            List<string> data =     new List<string>();
+            data.Where(s => s.Contains("s"));
+            string[] data2 = new string[11];
+            data2.Where(s => s.Contains("s"));  
+            decimal[] data3 = new decimal[11];  
+ 
             Console.WriteLine(Atype.InvalidChars[0]);
             Console.WriteLine(Atype.InvalidStrings[2]);
 
