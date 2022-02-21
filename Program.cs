@@ -3,6 +3,7 @@
 using CLR_Practice._7_Chapter;
 using CLR_Practice._8_Chapter;
 
+<<<<<<< HEAD
 //Rectangle rectangle = new Rectangle();
 //Console.WriteLine(rectangle.topLeft.X);
 //Console.WriteLine(rectangle.topLeft.Y);
@@ -29,3 +30,8 @@ Task.Run(async() => {
 Console.ReadLine(); 
 
 //AnotherType.Main();
+=======
+ExtendedMethod instance = new ExtendedMethod();
+instance.Main();
+AnotherType.Main();
+>>>>>>> d27edf4c1e28abd12cec22b217c5be3d28757b30
